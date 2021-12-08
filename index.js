@@ -34,6 +34,7 @@ reset.addEventListener('click', ()=>{
 
 
 function render(parent){  
+    parent.textContent=null
     stepCount=0
     mixed =[]
     while(mixed.length!==20){
