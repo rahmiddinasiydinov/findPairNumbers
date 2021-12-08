@@ -87,8 +87,7 @@ function check(clicked, val, index){
                             recordIndicator.textContent = `Your high score is ${window.localStorage.getItem('score')} steps!`;
                             scoreType.textContent='New Highscore!';
                             score.textContent=`${stepCount} steps!`
-                        }
-                        else{
+                        } else{
                             recordIndicator.textContent = `Your high score is ${window.localStorage.getItem('score')} steps!`;
                             scoreType.textContent='Your score is';
                             score.textContent=`${stepCount} steps`
